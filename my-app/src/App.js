@@ -38,7 +38,7 @@ class App extends Component {
             {" "}
             <a
               href="https://developmentarc.gitbooks.io/react-indepth/content/"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               https://developmentarc.gitbooks.io/react-indepth/content/
             </a>
