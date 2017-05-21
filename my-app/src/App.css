@@ -1,3 +1,13 @@
+html, body {
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+#map {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -15,10 +25,35 @@
 }
 
 .App-intro {
-  font-size: large;
+  text-align: left;
+  font-size: 1.5em;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.btn-primary {
+  padding: 15px;
+  margin: 10px;
+}
+
+blockquote {
+  text-align: left;
+  font-size: 1.5em;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
 }
